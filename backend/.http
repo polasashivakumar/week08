@@ -1,0 +1,74 @@
+GET http://localhost:5000/user-api/users
+
+###
+POST http://localhost:5000/user-api/adduser
+Content-Type: application/json
+
+{
+    "firstname":"karthik",
+    "email":"karthik@mail.com",
+    "gender":"MALE",
+    "experience":"0"
+}
+
+###
+POST http://localhost:5000/user-api/adduser
+Content-Type: application/json
+
+{
+    "firstname":"vamshi",
+    "email":"vamshi@mail.com",
+    "gender":"MALE",
+    "experience":"3"
+}
+
+###
+POST http://localhost:5000/user-api/adduser
+Content-Type: application/json
+
+{
+    "firstname":"shiva",
+    "email":"shiva@mail.com",
+    "gender":"MALE",
+    "experience":"5"
+}
+###
+POST http://localhost:5000/user-api/adduser
+Content-Type: application/json
+
+{
+    "firstname":"pallavi",
+    "email":"pallavi@mail.com",
+    "gender":"FEMALE",
+    "experience":"2"
+}
+###
+POST http://localhost:5000/user-api/adduser
+Content-Type: application/json
+
+{
+    "firstname":"geetha",
+    "email":"geetha@mail.com",
+    "gender":"FEMALE",
+    "experience":"0"
+}
+###
+POST http://localhost:5000/user-api/adduser
+Content-Type: application/json
+
+{
+    "firstname":"nagesh",
+    "email":"nagesh@mail.com",
+    "gender":"MALE",
+    "experience":"1"
+}
+###
+POST http://localhost:5000/user-api/adduser
+Content-Type: application/json
+
+{
+    "firstname":"pavan",
+    "email":"pavan@mail.com",
+    "gender":"MALE",
+    "experience":"1"
+}
