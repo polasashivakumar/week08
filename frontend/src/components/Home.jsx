@@ -10,7 +10,7 @@ function Home() {
     const fetchUsers = async () => {
       try {
         const response = await fetch(
-          'https://week08-usermanagement.onrender.com/user-api/users'
+          'https://week08.onrender.com/user-api/users'
         );
 
         const data = await response.json();
