@@ -15,7 +15,7 @@ app.use(exp.json())
 // cookie parser middle ware 
 app.use(cors({
     origin: ['http://localhost:5173',
-             'https://week08-usermanagement.vercel.app']
+             'https://week08-alpha.vercel.app']
 }));
 // Api's
 app.use('/user-api',UserApi)
